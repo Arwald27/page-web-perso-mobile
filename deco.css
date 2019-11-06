@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+    padding: 15px;
+}
+
+#bandeau{
+    color:rgb(19, 89, 196);
+    font-size: 300%;
+    text-shadow: white 2px 2px 2px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+}
+.icônes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    justify-content: center;
+    gap: 60px;
+    width: 920px;
+}
+
+.chapeau{
+    width: 120%;
+}
+
+.guitare{
+    width: 120%;
+}
+
+.avion{
+    width: 120%;
+}
+
+.contacts{
+    width: 120%;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    padding: 100px;
+}
+
+
+#qui{
+    width: 920px;
+}
+#qui > p{
+    color: white;
+    text-align: justify;
+    font-size: larger;
+}
+
+#qui > img{
+    width: 100%;
+}
+
+#quoi{
+    width: 920px;
+}
+
+#quoi > ul{
+    color: white;
+    text-align: justify;
+    font-size: larger;
+}
+
+#quoi > img{
+    width: 100%;
+}
+
+#moi{
+    width: 920px;
+}
+
+#moi > p{
+    color: white;
+    text-align: justify;
+    font-size: larger;
+}
+
+#moi > img{
+    width: 100%;
+}
+
+#moi > iframe{
+    width: 100%;
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    width: 306px;
+}
+
+#contact > img{
+    width: 33%;
+}

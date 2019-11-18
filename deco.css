@@ -3,19 +3,27 @@ body{
     padding: 15px;
 }
 
+body{
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+
+    
+}
+}
 #bandeau{
-    color:rgb(19, 89, 196);
-    font-size: 300%;
-    text-shadow: white 2px 2px 2px;
+    color: white;;
+    font-size: 1000%;
+    text-shadow:blue 2px 2px 2px;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     letter-spacing: 3px;
     text-transform: uppercase;
-    
-}
+    }
+
+
 .icônes{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-content: center;
     justify-content: center;
     gap: 60px;
@@ -52,7 +60,8 @@ body{
 #qui > p{
     color: white;
     text-align: justify;
-    font-size: larger;
+    font-size: x-large;
+    font-family: 'Bree Serif', serif;
 }
 
 #qui > img{
@@ -67,10 +76,11 @@ body{
     color: white;
     text-align: justify;
     font-size: larger;
+    font-family: 'Bree Serif', serif;
 }
 
 #quoi > img{
-    width: 100%;
+    width: 80%;
 }
 
 #moi{
@@ -85,10 +95,16 @@ body{
 
 #moi > img{
     width: 100%;
+    align-content: center;
 }
 
 #moi > iframe{
     width: 100%;
+}
+
+#moi > p{
+    font-family: 'Bree Serif', serif;
+    font-size: x-large;
 }
 
 .photo{
@@ -121,11 +137,13 @@ body{
         }
         
         #bandeau {
-            color: rgb(19, 89, 196);
-            font-size: 300%;
-            text-shadow: 2px 2px 2px white ;
+            color: white;
+            font-size: 600%;
+            text-shadow: 2px 2px 2px blue ;
             text-transform: uppercase;
             letter-spacing: 3px;
+            align-content: center;
+            justify-content: center;
         }
         
         body {

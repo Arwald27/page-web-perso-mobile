@@ -91,13 +91,154 @@ body{
     width: 100%;
 }
 
+.photo{
+    width: 150px;
+}
+
 #contact{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.3fr);
     align-content: center;
+}
+
+.fb{
     width: 306px;
 }
 
-#contact > img{
-    width: 33%;
+.insta{
+    width: 306px;
+}
+
+.linkedin{
+    width: 306px;
+}
+
+@media (min-width: 1280px){
+    .title {
+        text-align: center;
+        color: white;
+        padding: 40px;
+        }
+        
+        #bandeau {
+            color: rgb(19, 89, 196);
+            font-size: 300%;
+            text-shadow: 2px 2px 2px white ;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        
+        body {
+            background-color: black;
+            margin: 30px;
+            
+        }
+        
+        .text {
+            color: white;
+            font-size: x-large;
+            text-align: justify
+        }
+        
+        .icônes{
+            width: 100%;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .chapeau {
+            width: 220px;
+        }
+        
+        .guitare{
+            width: 300px;
+        }
+        
+        .avion{
+            width: 350px;
+        }
+        .contacts{
+            width: 100%;
+            
+            
+        }
+      
+        
+        #qui{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        gap: 50px
+        
+        }
+        
+        .afrique {
+            width: 500px;
+        }
+        
+        .sthetoscope{
+            width: 500px;
+        }
+        
+        .profil{
+            width: 150px;
+        }
+        
+        
+        .quoi{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            justify-items: center;
+            width: 100%;
+        }
+            
+        .photo{
+            width: 200px;
+        }
+        
+        
+        .fb{
+            width: 250px;
+        }
+        
+        .insta{
+            width: 250px;
+        }
+        
+        .linkedin{
+            width: 250px;
+        }
+        
+        #moi{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            justify-items: center;
+            gap: 30px;
+            width: 100%;
+            
+        }
+
+        #helix{
+            width: 60%;
+        }
+
+        #contact{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            justify-items: center;
+            width: 100%;
+        }
+        
+        .geralt{
+        
+            width: 860px;
+        }
+    .concert{
+        width: 860px;
+    }
 }

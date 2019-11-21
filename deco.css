@@ -1,18 +1,16 @@
+
 body{
     background-color: black;
     padding: 15px;
-}
-
-body{
     background-image: url(header.jpg);
     background-repeat: no-repeat;
 
     
-}
+
 }
 #bandeau{
     color: white;;
-    font-size: 1000%;
+    font-size: 600%;
     text-shadow:blue 2px 2px 2px;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
@@ -21,7 +19,7 @@ body{
     }
 
 
-.icônes{
+.icones{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-content: center;
@@ -55,7 +53,7 @@ body{
 
 
 #qui{
-    width: 920px;
+    width: 100%;
 }
 #qui > p{
     color: white;
@@ -69,18 +67,19 @@ body{
 }
 
 #quoi{
-    width: 920px;
-}
-
-#quoi > ul{
+    width: 100%;
     color: white;
     text-align: justify;
-    font-size: larger;
+    font-size: x-large;
     font-family: 'Bree Serif', serif;
 }
 
+
+    
+}
+
 #quoi > img{
-    width: 80%;
+    width: 100%;
 }
 
 #moi{
@@ -108,9 +107,19 @@ body{
 }
 
 .photo{
-    width: 150px;
+    width: 934px;
+    transform: rotate(90deg);
+    justify-self: center;
+    align-self: center;
 }
-
+#gauche{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 934px;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
 #contact{
     display: grid;
     grid-template-columns: repeat(3, 0.3fr);
@@ -158,7 +167,7 @@ body{
             text-align: justify
         }
         
-        .icônes{
+        .icones{
             width: 100%;
             align-items: center;
             justify-items: center;
@@ -205,16 +214,30 @@ body{
         }
         
         
-        .quoi{
+        #quoi{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            align-items: center;
-            justify-items: center;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-areas: "gauche droitetop"
+                                 "gauche droitebot";
             width: 100%;
-        }
+            color: white;
+            font-family: 'Bree Serif', serif;
+            font-size: x-large;
             
+        }
+         #gauche{
+       grid-area: gauche;
+    }
+         #droitetop{
+        grid-area: droitetop;
+    }
+         #droitebot{
+        grid-area: droitebot;
+    }
         .photo{
-            width: 200px;
+            width: 100%;
+            
         }
         
         

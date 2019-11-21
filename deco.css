@@ -22,7 +22,7 @@ body{
     color: white;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
-    font-size: large;
+    font-size: larger;
 }
 
 
@@ -168,6 +168,9 @@ body{
             
         }
         
+        .slogan{
+            font-size: larger;
+        }
         .text {
             color: white;
             font-size: x-large;

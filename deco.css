@@ -18,6 +18,12 @@ body{
     text-transform: uppercase;
     }
 
+.slogan{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
 
 .icones{
     display: grid;
